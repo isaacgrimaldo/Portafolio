@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import'./Configs/vars';
+
+@import'./Components/Banner';
+@import'./Components/barContact';
+@import'./Components/Works';
+@import'./Components/navBar';
+@import'./Components/About';
+
+.vh10{
+    height: 10vh;
+    position: relative;
+    z-index: 800;
+}
+.vh90{
+    height: 90vh;
+}
+
+.navbarMovil{
+    display:none;
+}
+
+/*INICO DEL RESPONSIVE PARA MOVILES*/
+@media (max-width: 590px) {
+    .navbarMovil{
+        display: block;
+    }
+    .navBarWeb{
+        display: none;
+    }
+
+    .footPages{
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .info{
+        width: 90%;
+        margin: 0px 5%;
+    }
+
+ } 
+
+
+

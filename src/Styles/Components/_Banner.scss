@@ -1,0 +1,43 @@
+.banner-container{
+        margin: 0px;
+        padding:0px;
+        position: fixed;
+        background-image: url('https://www.womgp.com/blog/wp-content/uploads/2021/03/Desarrollo-Web-Dibdata.jpg');
+        background-size: cover;
+        background-position:  50% top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: rgb(252, 252, 252);
+        height: 90vh;
+        width: 100%;
+        letter-spacing: 1px;
+         
+        h1{ 
+            font-size: 6rem;
+            font-family: 'Bebas Neue', cu   rsive;
+        }
+
+        h2{
+            font-family: 'Big Shoulders Display', cursive;
+            font-size: 3em;   
+            text-transform: capitalize;
+        }
+        
+      
+           
+    }
+
+
+.banner-center{
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+

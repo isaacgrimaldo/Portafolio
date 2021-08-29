@@ -1,0 +1,43 @@
+.content-about{
+    background-color: #e00068e7;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Londrina Solid', cursive;
+    
+    h1{ 
+        font-size: 6rem;
+        font-family: 'Bebas Neue', cu   rsive;
+    }
+
+    ul{
+        list-style: none; 
+    }
+       
+}
+
+.info{
+    background-color: #23548b;
+    width: 60%;
+    margin: 10px 20%;
+    padding: 10px;
+    color: rgba(248, 247, 247, 0.986);
+    border-radius: 10px;
+
+    h2{
+         color:#01b2d1;
+    }
+
+    h3{
+        color:#00BFE0;
+    }
+    
+    li{
+       margin-top: 0px;       
+    }
+    
+    .row > .col{
+        margin-top: 10px;
+    }
+
+
+}

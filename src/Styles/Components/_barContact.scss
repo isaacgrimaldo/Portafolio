@@ -1,0 +1,28 @@
+.container-bar-contact{
+    position: absolute;
+    display: fixed;
+    left: 0px;
+    top: 30% ;
+    background: rgb(46, 45, 45);
+    border-radius: 0px 15px 15px 0px;
+    opacity: 0.9;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Londrina Solid', cursive;    
+
+    .row{
+        width: 120px;
+    }
+
+    h4{
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .row > img:hover {
+        transition-duration:2s;
+        transition-property: a;
+        transform: scale(1.1 ,1.1);
+    }
+
+    
+}
